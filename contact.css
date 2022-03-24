@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:rgb(10, 67, 102);
+}
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(66, 145, 77);
+    font-size: 60px;
+    padding-left: 13%;
+}
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -3%;
+    padding-right: 990px;
+}
+@media screen and (max-width:600px) {
+    nav {
+        display: flex;
+        justify-content: left;
+        width: 50%;
+        padding-left: 25%;
+    }
+}
+
+.home {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    color: rgb(139, 175, 189);
+    text-decoration: none;  
+}
+
+.contactbox {
+    width: 500px;
+    background-color: rgb(66, 145, 77);
+    box-shadow: 0 0 20px 0 rgb(35, 100, 22);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 10%;
+}
+form {
+    margin: 35px;
+}
+.inputfield {
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 20px;
+    outline: none;
+}
+.textareafield {
+    height: 150px;
+    padding-top: 10px;
+}
+.btn {
+    width: 20%;
+    border-radius: 20px;
+    color: rgb(139, 175, 189);
+    padding: 10px;
+    background-color:rgb(10, 67, 102);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+

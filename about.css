@@ -1,0 +1,57 @@
+body {
+    background-color:rgb(9, 76, 117);
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color:rgb(66, 145, 77);
+    padding-left: 13%;
+    padding-top: 5%;
+    margin-bottom:0 ;
+
+}
+.circle {
+     border-radius: 50%;
+     width: 405px;
+     height: 405px;
+     background: rgb(158, 154, 154);
+     border: 1px solid rgb(233, 160, 77);
+     margin-left: 10%;
+     margin-top: 5%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+.aboutnav {
+    list-style: none;
+    padding-left: 38.5%;
+    margin-top: -3%;
+    font-family: "sedgwick Ave Display", cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-evenly;
+    
+    
+   
+}
+.home, .work, .contact {
+    color: rgb(139, 175, 189);
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+    
+}
+
+.para {
+    width: 40%;
+    padding-left: 290px;
+    margin-top: 5%;
+    font-size: 30px;
+    color: rgb(139, 175, 189);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
