@@ -1,5 +1,7 @@
 body {
     background-color:rgb(9, 76, 117);
+    margin: 0;
+    padding: 0;
 }
 .topnav,h1 {
     line-height: 10%;
