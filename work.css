@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(9, 76, 117);
+}
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(66, 145, 77);
+    font-size: 60px;
+    padding-left: 10%;
+}
+.aquarium {
+    list-style: none;
+    
+}
+.fish {
+    width: 300px;
+}
+ul {
+    list-style: none;
+    
+}
+.home, .contact {
+    text-decoration: none;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+    color: rgb(139, 175, 189);
+    float: right;
+    
+
+}

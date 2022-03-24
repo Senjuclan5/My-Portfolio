@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(9, 76, 117);
+}
+.topnav,h1 {
+    line-height: 10%;
+}
+
+
+
+header {
+    font-family: 'Sedgwick Ave Display', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    padding-top: 40vh;
+    font-size: 60px;
+    color:rgb(66, 145, 77);
+    width: 650px;
+    margin: 0 31%;
+    
+}
+ 
+nav {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.topnav {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    padding-right: 7%;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+}
+@media screen and (max-width:600px) {
+    .topnav {
+        display: flex;
+        flex-direction: column;
+        word-spacing: 300px;
+        height: 50%;
+        width: 70%;
+        
+    }
+    
+}
+
+
+.aboutme, .work, .contact {
+    text-decoration: none;
+    color: rgb(139, 175, 189);
+}
+
+
+
+
